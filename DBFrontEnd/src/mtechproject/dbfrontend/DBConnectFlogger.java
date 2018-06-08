@@ -9,7 +9,7 @@ public class DBConnectFlogger {
     private static Connection conn;
     private static String url = "jdbc:mysql://localhost:3306/floggerdb";
     private static String user = "root";
-    private static String pass = "phoenix6832";
+    private static String pass = "password";
 
     public static Connection connect() throws SQLException{
         try{
